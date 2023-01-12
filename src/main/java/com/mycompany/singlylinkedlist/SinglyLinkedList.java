@@ -12,6 +12,7 @@ package com.mycompany.singlylinkedlist;
 public class SinglyLinkedList {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SinglyLinkedListDS s = new SinglyLinkedListDS();
+        s.dosomething();
     }
 }
