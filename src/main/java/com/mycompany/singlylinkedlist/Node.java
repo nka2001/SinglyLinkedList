@@ -13,12 +13,12 @@ public class Node<T> extends SinglyLinkedListDS{
     
     public Node(){
         this.data = (T) "default";
-        this.next = this.dummy;
+        this.next = this.head;
     }
     
     public Node(T data){
         this.data = data;
-        this.next = this.dummy;
+        this.next = this.head;
         
     }
     
